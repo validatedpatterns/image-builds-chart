@@ -1,0 +1,6 @@
+apiVersion: v2
+description: Deploy an image in-cluster with buildconfig and imagestream
+keywords:
+- pattern
+name: image-builds
+version: 0.0.1

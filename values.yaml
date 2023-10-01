@@ -1,0 +1,13 @@
+### Parameters for the imagestream
+name: custom
+imagestream:
+  sourceImage: image-registry.openshift-image-registry.svc:5000/openshift/cli
+  tag: latest
+
+### Parameters for the buildconfig
+buildconfig:
+  git:
+    uri: https://github.com/validatedpatterns-sandbox/
+    ref: main
+    contextDir: containerfiles
+  dockerfilePath: Containerfile 
